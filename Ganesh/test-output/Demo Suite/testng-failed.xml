@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Demo Suite]">
+  <parameter name="Emp" value="P3048"/>
+  <test name="Demo test">
+    <classes>
+      <class name="PackTwo.Jannu"/>
+    </classes>
+  </test> <!-- Demo test -->
+  <test name="Demo test(failed)">
+    <classes>
+      <class name="PackTwo.Jannu">
+        <methods>
+          <include name="testCase1"/>
+          <include name="beforemethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="testCase2"/>
+          <include name="beforeClass"/>
+          <include name="testCase3" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- PackTwo.Jannu -->
+    </classes>
+  </test> <!-- Demo test(failed) -->
+</suite> <!-- Failed suite [Demo Suite] -->

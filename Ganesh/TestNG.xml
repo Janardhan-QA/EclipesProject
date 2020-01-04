@@ -1,0 +1,31 @@
+<suite name="Demo Suite" >
+
+ <parameter name="Emp" value="P3048"/>
+	<test name="Demo test">
+		<!-- <groups>
+		         <define name="all">
+		            <include name="jd"/>
+		            <include name="md"/>
+		         
+		         </define>
+		
+		
+			<run>
+				<include name="all" />
+                
+			</run>
+
+		</groups>
+ -->
+ <!-- <listeners> 
+              //<listener class-name="PackTwo.RetryListenerClass"/>
+ </listeners>
+   -->
+
+    
+		<classes>
+			<class name="PackTwo.Jannu" />
+		</classes>
+
+	</test>
+</suite>
